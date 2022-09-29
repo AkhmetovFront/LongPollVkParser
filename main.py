@@ -1,9 +1,10 @@
 import json
 import vk_api
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType,VkBotMessageEvent
-main_token = 'Your token'
+main_token = 'Your group token'
+groupId = 'Your group id'
 vs = vk_api.VkApi(token = main_token)
-lp = VkBotLongPoll(vs,216087336)
+lp = VkBotLongPoll(vs,groupId)
 toJson = {'main':dict(), 'forward':dict(), 'reply':dict()}
 
 
