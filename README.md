@@ -1,5 +1,5 @@
 # LongPollVkParser
-Parser of important messages in VK dialogs using vkLongPoll in json file.
+Parser of important messages in VK dialogs using vkLongPoll.
 Message with "@all" tag will be received and written in json format.
 
 
